@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+#nav-item{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 14px;
+
+}
+
+
+
+#nav-link{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+#nav-item:hover{
+    background-color: red;
+    transition: 1.5s;
+}
+
+
+/*Start dropdown  coding................*/
+#dropdown{
+ width: 180px;    
+  border-width: 1px;
+  border-style: solid;
+  position: absolute;
+  top: 51px;
+  left: 0px;
+  display: none;
+}
+
+
+
+.drop{
+ position: relative;   
+
+}
+
+
+
+
+
+#drop-item{
+    width: 180px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 15px;
+}
+
+
+#drop-item:hover{
+    background-color: red;
+}
+
+#drop-link{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+
+
+
+
+.drop:hover  #dropdown{
+    display: block;
+    
+}
+
+nav{
+    background-color: black;
+}
+/*End dropdown  coding...............................*/
+
+
+
+
+/*Creat  In Next dropdown  coding...............................*/
+#next-dropdown{
+    width: 180px;
+    box-sizing: border-box;
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 15px;
+    margin-left: 182px;
+    margin-top: -35px;
+    display: none;
+    
+}
+
+
+#Next-link{
+    color: white;
+    text-decoration: none;
+}
+
+
+#Next-item{
+    width: 180px;
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    
+}
+
+
+
+.New:hover #next-dropdown{
+    
+    display:block;
+}
+
+#Next-item:hover{
+    background-color: red;
+}
+
+/* End In Next dropdown  coding...............................*/
